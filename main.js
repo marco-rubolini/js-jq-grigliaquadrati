@@ -3,7 +3,7 @@
 $('.quadrato').each(function(){
     var numeroRandom = generaNumeroRandom(0, 10);
     console.log(numeroRandom);
-    $(this).text(numeroRandom);
+    $("<span></span>").appendTo(this).text(numeroRandom);
 })
 
 
